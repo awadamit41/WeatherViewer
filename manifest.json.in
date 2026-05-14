@@ -1,0 +1,15 @@
+{
+    "name": "weatherviewer2.com.amit",
+    "description": "A simple Ubuntu Touch app that lets user type in a city name and instantly see weather details.",
+    "architecture": "$ENV{ARCH}",
+    "title": "Weather Viewer",
+    "hooks": {
+        "weatherviewer2": {
+            "apparmor": "weatherviewer2.apparmor",
+            "desktop":  "weatherviewer2.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Amit Awad <amit41thinkpad@gmail.com>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}
