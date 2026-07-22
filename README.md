@@ -1,4 +1,4 @@
-# Weather Viewer 
+# Weather Viewer
 
 A simple Ubuntu Touch app that lets user type in a city name and instantly see weather details.
 
